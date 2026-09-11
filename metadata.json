@@ -1,6 +1,6 @@
 {
-  "name": "Blank App",
-  "description": "A clean, blank project ready for development.",
+  "name": "Photo Grid",
+  "description": "A responsive 3x3 photo grid displaying nine equal dimension photos with images and titles.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
