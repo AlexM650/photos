@@ -22,7 +22,7 @@ export const PHOTOS: PhotoItem[] = [
     id: 'photo-3',
     title: 'Bat',
     category: 'Baseball',
-    imageUrl: '/bat.jpeg',
+    imageUrl: '/photos.jpeg',
   },
   {
     id: 'photo-4',
