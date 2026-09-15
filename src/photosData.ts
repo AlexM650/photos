@@ -8,15 +8,15 @@ export interface PhotoItem {
 export const PHOTOS: PhotoItem[] = [
   {
     id: 'photo-1',
-    title: 'Mountain Sunrise',
-    category: 'Landscape',
-    imageUrl: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&h=600&q=80',
+    title: 'Glove',
+    category: 'Baseball',
+    imageUrl: '/baseball-glove.jpg',
   },
   {
     id: 'photo-2',
-    title: 'Ocean Horizon',
-    category: 'Seascape',
-    imageUrl: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&h=600&q=80',
+    title: 'Baseball',
+    category: 'Baseball',
+    imageUrl: '/baseball.jpg',
   },
   {
     id: 'photo-3',
