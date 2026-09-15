@@ -20,9 +20,9 @@ export const PHOTOS: PhotoItem[] = [
   },
   {
     id: 'photo-3',
-    title: 'Misty Pine Forest',
-    category: 'Nature',
-    imageUrl: 'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=600&h=600&q=80',
+    title: 'Bat',
+    category: 'Baseball',
+    imageUrl: '/bat.jpeg',
   },
   {
     id: 'photo-4',
