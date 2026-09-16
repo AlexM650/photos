@@ -38,11 +38,8 @@ export function App() {
       <div className="max-w-5xl mx-auto">
         <header id="gallery-header" className="mb-10 text-center">
           <h1 id="gallery-title" className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-            Photo Gallery
+            Some of the Many Sports
           </h1>
-          <p id="gallery-subtitle" className="mt-2 text-sm text-neutral-400">
-            A curated 3×3 grid of nine equal-dimension photographs
-          </p>
           <nav aria-label="Filter photos by sport" className="mt-6 flex flex-wrap justify-center gap-2">
             {categories.map((category) => {
               const isSelected = selectedCategory === category;
