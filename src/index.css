@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+#app-root {
+  background-image:
+    radial-gradient(circle at 8% 8%, rgb(127 29 29 / 24%), transparent 32rem),
+    radial-gradient(circle at 92% 48%, rgb(6 78 59 / 22%), transparent 34rem),
+    radial-gradient(circle at 52% 96%, rgb(154 52 18 / 24%), transparent 36rem);
+  background-attachment: fixed;
+}
