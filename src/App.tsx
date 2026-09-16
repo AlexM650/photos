@@ -81,7 +81,7 @@ export function App() {
                   alt={photo.title}
                   loading="lazy"
                   referrerPolicy="no-referrer"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-300"
                 />
               </div>
               <div id={`photo-meta-${index + 1}`} className="p-4 flex items-center justify-between">
