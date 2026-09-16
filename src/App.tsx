@@ -1,6 +1,18 @@
 import React from 'react';
 import { PHOTOS } from './photosData';
 
+const sportAccents: Record<string, string> = {
+  Baseball: 'border-red-500/50 hover:border-red-400',
+  Football: 'border-emerald-500/50 hover:border-emerald-400',
+  Basketball: 'border-orange-500/50 hover:border-orange-400',
+};
+
+const badgeAccents: Record<string, string> = {
+  Baseball: 'bg-red-950/80 text-red-300',
+  Football: 'bg-emerald-950/80 text-emerald-300',
+  Basketball: 'bg-orange-950/80 text-orange-300',
+};
+
 export function App() {
   return (
     <div id="app-root" className="min-h-screen bg-neutral-950 text-neutral-100 py-12 px-4 sm:px-6 lg:px-8">
@@ -19,7 +31,7 @@ export function App() {
             <article
               key={photo.id}
               id={`photo-card-${index + 1}`}
-              className="group bg-neutral-900 rounded-xl overflow-hidden border border-neutral-800 hover:border-neutral-700 transition-all duration-200 flex flex-col shadow-sm"
+              className={`group bg-neutral-900 rounded-xl overflow-hidden border-2 ${sportAccents[photo.category] ?? 'border-neutral-800 hover:border-neutral-700'} transition-all duration-200 flex flex-col shadow-sm`}
             >
               <div
                 id={`photo-container-${index + 1}`}
@@ -43,7 +55,7 @@ export function App() {
                 </h2>
                 <span
                   id={`photo-badge-${index + 1}`}
-                  className="text-xs text-neutral-400 bg-neutral-800/80 px-2 py-0.5 rounded"
+                  className={`text-xs px-2 py-0.5 rounded ${badgeAccents[photo.category] ?? 'text-neutral-400 bg-neutral-800/80'}`}
                 >
                   {photo.category}
                 </span>
