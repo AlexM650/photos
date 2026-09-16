@@ -10,7 +10,11 @@
 }
 
 #app-root[data-theme="all"] {
-  background-color: #0a0a0a;
+  background-color: #120f0f;
+  background-image:
+    radial-gradient(circle at 8% 8%, rgb(239 68 68 / 32%), transparent 36rem),
+    radial-gradient(circle at 92% 48%, rgb(16 185 129 / 30%), transparent 38rem),
+    radial-gradient(circle at 52% 100%, rgb(249 115 22 / 32%), transparent 40rem);
 }
 
 #app-root[data-theme="baseball"] {
